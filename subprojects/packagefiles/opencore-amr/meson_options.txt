@@ -1,0 +1,14 @@
+option('amrnb-encoder', type: 'feature', value: 'enabled',
+  description: 'Build AMR-NB encoder')
+
+option('amrnb-decoder', type: 'feature', value: 'enabled',
+  description: 'Build AMR-NB decoder')
+
+option('compile-c', type: 'feature', value: 'enabled',
+  description: 'Enable compiling as C program')
+
+option('gcc-armv5', type: 'feature', value: 'disabled',
+  description: 'Enable GCC specific ARMv5 assembler')
+
+option('examples', type : 'feature', value : 'auto', yield : true,
+  description: 'Build example command line applications')

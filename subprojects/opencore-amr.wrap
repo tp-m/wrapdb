@@ -1,0 +1,10 @@
+[wrap-file]
+directory = opencore-amr-0.1.6
+source_url = https://sourceforge.net/projects/opencore-amr/files/opencore-amr/opencore-amr-0.1.6.tar.gz/download
+source_filename = opencore-amr-0.1.6.tar.gz
+source_hash = 483eb4061088e2b34b358e47540b5d495a96cd468e361050fae615b1809dc4a1
+patch_directory = opencore-amr
+
+[provide]
+opencore-amrnb = opencore_amrnb_dep
+opencore-amrwb = opencore_amrwb_dep
