@@ -1153,6 +1153,14 @@
       "0.3.0-1"
     ]
   },
+  "libltc": {
+    "dependency_names": [
+      "ltc"
+    ],
+    "versions": [
+      "1.3.2-1"
+    ]
+  },
   "liblzma": {
     "dependency_names": [
       "liblzma"
